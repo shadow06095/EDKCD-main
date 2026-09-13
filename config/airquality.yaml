@@ -1,0 +1,22 @@
+# EDKCD config: AirQuality
+experiment: "airquality"
+num_sim: 1
+seed: 0
+use_cuda: true
+cuda_i: 0
+fast_mode: true
+base_dir: null
+encoder_type: "mlp"
+num_hidden_layers: 6
+hidden_layer_size: 8
+kan_embed_dim: 15
+kan_hidden: [64, 64]
+channel_independent: false
+initial_lr: 0.005
+num_epochs_1: 1000
+num_epochs_2: 2000
+lag: 1
+recon_weight: 1.0
+pred_weight: 1.0
+lin_weight: 0.1
+l1_weight: 0.8

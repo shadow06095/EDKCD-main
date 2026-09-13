@@ -1,0 +1,6 @@
+# Logs
+logs/
+all_results*/
+**/__pycache__/
+*.pyc
+.DS_Store

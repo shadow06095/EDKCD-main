@@ -1,0 +1,22 @@
+# EDKCD config: Lorenz96 (p=20, F=10)
+experiment: "lorenz96_0"
+num_sim: 5
+seed: 0
+use_cuda: true
+cuda_i: 0
+fast_mode: true
+base_dir: null
+encoder_type: "mlp"
+num_hidden_layers: 6
+hidden_layer_size: 12
+kan_embed_dim: 10
+kan_hidden: [64, 64]
+channel_independent: false
+initial_lr: 0.01
+num_epochs_1: 1000
+num_epochs_2: 3000
+lag: 1
+recon_weight: 1.0
+pred_weight: 1.0
+lin_weight: 0.1
+l1_weight: 0.6
